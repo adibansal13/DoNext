@@ -51,3 +51,8 @@ body {
   border: none;
   background-color: transparent;
 }
+.center_heading .btn {
+  background-color: #a7aca5;
+  color: white;
+  max-height: 2rem;
+}
