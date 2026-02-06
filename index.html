@@ -3,7 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>DoNext</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="container m-auto d-flex align-items-center">
+      <div class="doNext row w-100 rounded-4 p-2">
+        <div class="left_panel col-3 rounded-3 p-2">
+          <img src="/images/logo2.png" alt="Logo Image" width="100px" />
+          <h6 class="fs-6 my-3">Tasks</h6>
+          <div class="tasks">
+            <div
+              class="task_today p-1 d-flex justify-content-between rounded-1"
+            >
+              <div><i class="fa-solid fa-list-check mx-3"></i>Today</div>
+              <span>25</span>
+            </div>
+            <div class="p-1 d-flex justify-content-between rounded-1">
+              <div><i class="fa-solid fa-angles-right mx-3"></i>Upcoming</div>
+              <span>25</span>
+            </div>
+            <div class="p-1 rounded-1">
+              <div>
+                <i class="fa-regular fa-calendar-days mx-3"></i>Calender
+              </div>
+            </div>
+            <div class="p-1 rounded-1">
+              <div><i class="fa-solid fa-note-sticky mx-3"></i>Sticky Wall</div>
+            </div>
+          </div>
+          <h6 class="fs-6 my-3">Lists</h6>
+          <div class="lists">
+            <div class="p-1 d-flex justify-content-between rounded-1">
+              <div class="d-flex align-items-center">
+                <p class="m-0 mx-3"></p>
+                Personal
+              </div>
+              <span>25</span>
+            </div>
+            <div class="p-1 d-flex justify-content-between rounded-1">
+              <div class="d-flex align-items-center">
+                <p class="m-0 mx-3"></p>
+                Work
+              </div>
+              <span>25</span>
+            </div>
+            <div class="p-1 d-flex justify-content-between rounded-1">
+              <div class="d-flex align-items-center">
+                <p class="m-0 mx-3"></p>
+                List1
+              </div>
+              <span>25</span>
+            </div>
+            <div class="p-1 d-flex justify-content-between rounded-1">
+              <div class="d-flex align-items-center">
+                <p class="m-0 mx-3"></p>
+                List1
+              </div>
+              <span>25</span>
+            </div>
+          </div>
+          <div class="p-1 d-flex justify-content-between rounded-1">
+            <div class="add_list mt-2">
+              <i class="fa-solid fa-plus mx-3"></i
+              ><input type="text" placeholder="Add New List" />
+            </div>
+          </div>
+        </div>
+        <div class="center_panel col"></div>
+        <div class="right_panel col-4 rounded-3"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
