@@ -29,14 +29,7 @@ body {
   padding: 0px 8px;
   border-radius: 8px;
 }
-.tasks > div:hover {
-  transition: 0.4s;
-  background-color: #a7aca54f;
-}
-.lists {
-  max-height: 25%;
-  overflow: auto;
-}
+
 .lists::-webkit-scrollbar {
   display: none;
 }
