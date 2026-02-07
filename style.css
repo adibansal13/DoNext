@@ -1,34 +1,23 @@
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
 }
-
-.tasks span,
-.lists span {
-  background-color: #adb0ac42;
-  font-size: 0.8rem;
-  font-weight: 500;
-  padding: 0px 8px;
-  border-radius: 8px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-
-.lists::-webkit-scrollbar {
-  display: none;
+.product_section,
+.cart_section {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  padding: 1rem;
 }
-.lists p {
-  border-radius: 0.2rem;
-  width: 1rem;
-  height: 1rem;
-  background-color: rgb(249, 75, 32);
-}
-.add_list input {
-  outline: none;
-  border: none;
-  background-color: transparent;
-}
-.center_heading .btn {
-  background-color: #a7aca5;
-  color: white;
-  max-height: 2rem;
+.product,
+.cart_item {
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 10px;
 }
